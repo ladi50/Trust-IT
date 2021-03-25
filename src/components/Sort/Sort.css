@@ -1,0 +1,22 @@
+.sort {
+  display: flex;
+  margin: 20px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort > button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 40px;
+  transition: all 0.15s ease-out;
+  outline-width: 0;
+}
+
+.sort > button:hover {
+  background-color: black;
+  color: whitesmoke;
+}

@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td:not(.header__td) {
+  padding: 5px;
+  min-width: 100px;
+  width: fit-content;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.header__td {
+  padding: 10px 0;
+  display: flex;
+  text-align: initial;
+}
+
+.header__td-span {
+  flex: 0.15;
+  padding-left: 5px;
+}
+
+.header__td > span:last-child {
+  flex: 0.8;
+}

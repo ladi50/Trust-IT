@@ -1,0 +1,12 @@
+.filter {
+  display: flex;
+  margin: 20px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__div > input,
+.filter__div > select {
+  padding: 5px 8px;
+}
